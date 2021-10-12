@@ -5,8 +5,11 @@ Quite self-explanatory, bypass forced tickrate in TF2 by hooking in Server metho
 ## Usage
 
 Download latest release from https://github.com/ldesgoui/mms-unlocked-tickrate/releases to steam/steamapps/common/Team Fortress 2 Dedicated Server/tf and unzip it.
+
 Put `-tickrate <desired tickrate>` in your launch options for your SrcDS server.
+
 **Reload the map with `changelevel <map>`**.
+
 Check if it loaded properly with `rcon meta list` and `net_graph 5` (will show sv: <tickrate>)
 
 ## Suggested config
