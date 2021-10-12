@@ -200,4 +200,4 @@ release: all
 	cp unlocked_tickrate.vdf addons/metamod
 	cp $(BIN_DIR)/$(BINARY) addons
 	zip -r unlocked_tickrate-v2.zip addons
-# 	rm -rf addons
+ 	rm -rf addons
