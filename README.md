@@ -25,6 +25,6 @@ sv_maxcmdrate <tickrate>
 ```sh
 git clone https://github.com/ldesgoui/mms-unlocked-tickrate --recursive
 cd mms-unlocked-tickrate
-make release TICK_RATE=133
+make release
 ls *.zip
 ```
