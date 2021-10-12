@@ -8,13 +8,12 @@
 HL2SDK_ORIG = hl2sdk
 HL2SDK_OB = hl2sdk-ob
 HL2SDK_CSS = hl2sdk-css
-HL2SDK_OB_VALVE = hl2sdk-ob-valve
+HL2SDK_OB_VALVE = hl2sdk
 HL2SDK_L4D = hl2sdk-l4d
 HL2SDK_L4D2 = hl2sdk-l4d2
 HL2SDK_CSGO = hl2sdk-csgo
 MMSOURCE19 = metamod-source
 ENGINE ?= orangeboxvalve
-TICK_RATE ?= 125
 
 #####################################
 ### EDIT BELOW FOR OTHER PROJECTS ###
@@ -32,7 +31,6 @@ GCC4_FLAGS = -fvisibility=hidden -fvisibility-inlines-hidden
 DEBUG_FLAGS = -g -ggdb3 -D_DEBUG
 CPP = g++
 CPP_OSX = clang
-CFLAGS += -DTICK_RATE=$(TICK_RATE)
 
 ##########################
 ### SDK CONFIGURATIONS ###
@@ -201,6 +199,5 @@ release: all
 	mkdir -p addons/metamod
 	cp unlocked_tickrate.vdf addons/metamod
 	cp $(BIN_DIR)/$(BINARY) addons
-	zip -r unlocked_tickrate-$(TICK_RATE).zip addons
-	rm -rf addons
-
+	zip -r unlocked_tickrate-v2.zip addons
+# 	rm -rf addons

@@ -6,3 +6,6 @@
 	path = metamod-source
 	url = https://github.com/alliedmodders/metamod-source
 	branch = 1.10-dev
+[submodule "hl2sdk"]
+	path = hl2sdk
+	url = https://github.com/alliedmodders/hl2sdk
