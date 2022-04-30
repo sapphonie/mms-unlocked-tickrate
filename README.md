@@ -4,7 +4,7 @@ Quite self-explanatory, bypass forced tickrate in TF2 by hooking in Server metho
 
 ## Usage
 
-Download latest release from https://github.com/ldesgoui/mms-unlocked-tickrate/releases to steam/steamapps/common/Team Fortress 2 Dedicated Server/tf and unzip it.
+Download latest release from https://github.com/sapphonie/mms-unlocked-tickrate/releases to steam/steamapps/common/Team Fortress 2 Dedicated Server/tf and unzip it.
 
 Put `-tickrate <desired tickrate>` in your launch options for your SrcDS server.
 
